@@ -1,0 +1,5 @@
+- name: Teste de execução de playbook
+  hosts: localhost
+  tasks:
+    - name: Executando ping
+      ping:
