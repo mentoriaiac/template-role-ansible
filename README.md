@@ -20,7 +20,7 @@ Ative o ambiente
 
 Instale dentro do ambiente o molecule (e suas dependencias) e o [pytest-testinfra](https://testinfra.readthedocs.io/en/latest/)
 
-    (venv)$ pip install "molecule[docker,lint]" pytest-testinfra
+    (venv)$ python3 -m pip install "molecule[docker,lint]" pytest-testinfra
 
 ## Executando
 
