@@ -7,21 +7,10 @@ on:
     branches: [ main ]
 jobs:
   linter:
-    strategy:
-      matrix:
-        python-version: [3.7, 3.8, 3.9]
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
-        with:
-          python-version: ${{ matrix.python-version }}
-      - name: Installing dependecies
-        run: |
-          python3 -m pip install --upgrade pip
-          python3 -m pip install -r requirements.txt
       - name: Run Ansible Linter
         uses: ansible/ansible-lint-action@v4.1.0
         with:
-          targets: "playbook.yml"
+          targets: "*"
