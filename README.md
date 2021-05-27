@@ -28,10 +28,10 @@ Instale dentro do ambiente o molecule (e suas dependencias) e o [pytest-testinfr
 
 Para realizar teste rápido após alguma modificação
 
-    molecule create
-    molecule converge
-    molecule verify
+    (venv)$ molecule create
+    (venv)$ molecule converge
+    (venv)$ molecule verify
 
 Ao termino do teste, destrua o ambiente
 
-    molecule destroy
+    (venv)$ molecule destroy
