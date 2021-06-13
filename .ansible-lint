@@ -1,0 +1,9 @@
+---
+exclude_paths:
+  - .github/
+  - .cache/
+  - molecule/default
+offline: false
+use_default_rules: true
+parseable: true
+verbosity: 1
