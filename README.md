@@ -22,6 +22,14 @@ Instale dentro do ambiente o molecule (e suas dependencias) e o [pytest-testinfr
 
     (venv)$ python3 -m pip install "molecule[docker,lint]" pytest-testinfra
 
+## Criando a role
+
+A role precisa ser criada e você pode fazer com o comando abaixo:
+
+```
+molecule init role nome_da_role --driver-name docker
+```
+
 ## Executando
 
     (venv)$ molecule test
