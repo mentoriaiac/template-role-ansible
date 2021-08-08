@@ -1,5 +1,7 @@
 # Template Role Ansible
 
+![Pipeline Status](https://github.com/mentoriaiac/template-role-ansible/actions/workflows/ci.yml/badge.svg) 
+
 Esse projeto tem a finalidade de ser um template para futuras criações de projetos que usem [ansible](https://docs.ansible.com/) e [molecule](https://molecule.readthedocs.io/en/latest/) (para teste do playbook).
 
 ## Dependências
