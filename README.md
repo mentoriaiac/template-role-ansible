@@ -1,5 +1,7 @@
 # Template Role Ansible
 
+![Pipeline Status](https://github.com/mentoriaiac/template-role-ansible/actions/workflows/ci.yml/badge.svg) 
+
 Esse projeto tem a finalidade de ser um template para futuras criações de projetos que usem [ansible](https://docs.ansible.com/) e [molecule](https://molecule.readthedocs.io/en/latest/) (para teste do playbook).
 
 ## Dependências
@@ -12,34 +14,40 @@ Para realizar os teste localmente é necessário a instalação das seguintes de
 
 Crie um ambiente python
 
-    $ python3 -m venv .venv
-
+```bash
+$ python3 -m venv .venv
+```
 Ative o ambiente
-
-    $ source .venv/bin/active
+```bash
+$ source .venv/bin/active
+```
 
 Instale dentro do ambiente o molecule (e suas dependencias) e o [pytest-testinfra](https://testinfra.readthedocs.io/en/latest/)
-
-    (venv)$ python3 -m pip install "molecule[docker,lint]" pytest-testinfra
+```bash
+(venv)$ python3 -m pip install "molecule[docker,lint]" pytest-testinfra
+```
 
 ## Criando a role
 
 A role precisa ser criada e você pode fazer com o comando abaixo:
 
-```
-molecule init role nome_da_role --driver-name docker
+```bash
+(venv)$ molecule init role nome_da_role --driver-name docker
 ```
 
 ## Executando
-
-    (venv)$ molecule test
+```bash
+(venv)$ molecule test
+```
 
 Para realizar teste rápido após alguma modificação
-
-    (venv)$ molecule create
-    (venv)$ molecule converge
-    (venv)$ molecule verify
+```bash
+(venv)$ molecule create
+(venv)$ molecule converge
+(venv)$ molecule verify
+```
 
 Ao termino do teste, destrua o ambiente
-
-    (venv)$ molecule destroy
+```bash
+(venv)$ molecule destroy
+``` 
