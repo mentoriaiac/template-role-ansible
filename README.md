@@ -19,7 +19,7 @@ $ python3 -m venv .venv
 ```
 Ative o ambiente
 ```bash
-$ source .venv/bin/active
+$ source .venv/bin/activate
 ```
 
 Instale dentro do ambiente o molecule (e suas dependencias) e o [pytest-testinfra](https://testinfra.readthedocs.io/en/latest/)
