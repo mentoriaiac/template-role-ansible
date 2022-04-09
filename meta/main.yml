@@ -1,9 +1,10 @@
 galaxy_info:
-  author: your name
-  description: your role description
-  company: Mentoria IaC
   role_name: template_role_ansible
   namespace: mentoriaiac
+  description: your role description
+
+  author: Mentoria IaC
+  company: Mentoria IaC
   license: MIT
   min_ansible_version: 5.6
 
