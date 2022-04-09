@@ -11,8 +11,8 @@ galaxy_info:
   platforms:
     - name: Ubuntu
       versions:
-        - 20.04
-        - 18.04
+        - focal
+        - bionic
 
   galaxy_tags: []
     # List tags for your role here, one per line. A tag is a keyword that describes
