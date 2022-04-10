@@ -52,4 +52,7 @@ jobs:
         env:
           PY_COLORS: '1'
           ANSIBLE_FORCE_COLOR: '1'
+          # Mudar a cor de mensagens de debug para aparecer melhor no fundo
+          # escuro dos logs do GitHub Action.
+          ANSIBLE_COLOR_DEBUG: "bright gray"
           MOLECULE_DISTRO: ${{ matrix.molecule_distro }}
