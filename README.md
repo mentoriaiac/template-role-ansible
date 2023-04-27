@@ -2,13 +2,13 @@
 
 ![Pipeline Status](https://github.com/mentoriaiac/template-role-ansible/actions/workflows/ci.yml/badge.svg)
 
-Esse projeto tem a finalidade de ser um template para futuras criações de projetos que usem [ansible](https://docs.ansible.com/) e [molecule](https://molecule.readthedocs.io/en/latest/) (para teste do playbook).
+Esse projeto tem a finalidade de ser um template para futuras criações de projetos que usem [ansible](https://docs.ansible.com/) e [molecule](https://molecule.readthedocs.io) (para teste do playbook).
 
 ## Dependências
 Para realizar os teste localmente é necessário a instalação das seguintes dependências:
 
 * [Python](https://www.python.org/downloads/)
-* [Molecule](https://molecule.readthedocs.io/en/latest/installation.html)
+* [Molecule](https://molecule.readthedocs.io/installation.html)
 
 ## Preparando o ambiente
 
